@@ -116,6 +116,7 @@ public class SearchActivity extends AppCompatActivity {
 
             JSONArray items = root.getJSONArray("items");
 
+
             final ArrayList<SearchResult> searchArrayList = new ArrayList<SearchResult>();
 
             for (int i = 0; i < items.length(); i++) {
